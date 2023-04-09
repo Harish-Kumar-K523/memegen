@@ -55,12 +55,50 @@ main{
 .form--btn:hover{
     background: linear-gradient(90.41deg, #541769 1.14%, #8c14b5 100%);
 }
-.meme--img-div{
-    margin-top: 36px;
-    width: 100%;
+.meme--img-div {
+    position: relative;
     text-align: center;
+    margin-top: 50px;
 }
-.meme--img{
-    max-width: 100%;
-    max-height: 100%;
+.meme--img {
+    max-width: 70%;
+    border-radius: 3px;
+}
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+.bottom {
+    bottom: 0;
+}
+.top {
+    top: 0;
+}
+
+@media (max-width: 470px) {
+    main{
+        padding: 15px;
+    }
+    .form{
+        grid-template: 25px 25px / 1fr ;
+    }
 }
