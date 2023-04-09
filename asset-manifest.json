@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/memegen/static/css/main.2e3958fc.css",
-    "main.js": "/memegen/static/js/main.0f0bd9fa.js",
+    "main.css": "/memegen/static/css/main.3186cc7a.css",
+    "main.js": "/memegen/static/js/main.08f1cf76.js",
     "index.html": "/memegen/index.html",
-    "main.2e3958fc.css.map": "/memegen/static/css/main.2e3958fc.css.map",
-    "main.0f0bd9fa.js.map": "/memegen/static/js/main.0f0bd9fa.js.map"
+    "main.3186cc7a.css.map": "/memegen/static/css/main.3186cc7a.css.map",
+    "main.08f1cf76.js.map": "/memegen/static/js/main.08f1cf76.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e3958fc.css",
-    "static/js/main.0f0bd9fa.js"
+    "static/css/main.3186cc7a.css",
+    "static/js/main.08f1cf76.js"
   ]
 }
